@@ -1,0 +1,104 @@
+.todo-app {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: whitesmoke;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.add {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button.add:hover {
+    background-color: #0056b3;
+  }
+  
+  button.edit {
+    background-color: #ffeb3b;
+    color: black;
+  }
+  
+  button.edit:hover {
+    background-color: #d4c026;
+  }
+  
+  button.delete {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  button.delete:hover {
+    background-color: #d32f2f;
+  }
+  
+  button.save {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  button.save:hover {
+    background-color: #388e3c;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li span {
+    flex: 1;
+    text-align: left;
+  }
+  
+  li button {
+    margin-left: 10px;
+  }
+  
+  li input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
